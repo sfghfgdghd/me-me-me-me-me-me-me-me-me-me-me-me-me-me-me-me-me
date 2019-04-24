@@ -238,22 +238,85 @@ client.on("message", message => {
 	       Help Commands: 
 
 			 
-${prefix}public ⥨ الاوامر العامة
+	  
+الاوامــر الــعـــامـــة
 
-${prefix}admin ⥨ اوامر الادارة
+⤠ #inv ⥨ لدعوة البوت الى سيرفرك
+⤠ #server ⥨ معلومات عن السيرفر                      
+⤠ #say ⥨ البوت يردد كلامك         
+⤠ #setcolor ⥨ عشان تغير لونك ملاحظة لازم تحط رقم اللون                                          
+⤠ #bot ⥨ معلومات عن البوت
+⤠ #ping ⥨ لمعرفه سرعه البوت
+⤠ #members ⥨ معلومات عن الاعضاء
+⤠ #emojilist ⥨ لعرض الايموجي حقت السيرفر
+⤠ #id ⥨ لمعرفة معلومات حسابك
+⤠ #avatar ⥨ لاعطائك صورة الشخص اللي منشنته مع الرابط
+⤠ #link ⥨ يعطيك رابط انفايت للسيرفر اللي انت فيه
+⤠ #trans <language> <any thing> ⥨ يترجم لك الي تبيه من اي لغة
+⤠ #short ⥨ لاختصار الروابط
+⤠ #embed ⥨ كتابة كلامك داخل امبد
+⤠ #tag ⥨ يكتب لك الكلمة بشكل جميل وكبير
+⤠ #contact ⥨ لارسال رسالة لصاحب البوت
+⤠ #support ⥨ لدخول سيرفر دعم البوت
+
+
+
+	  
+اوامـــر الادمـــنـــيــــة
+
+⤠ #vb ⥨ لمنع الشخص اللي تمنشنه من دخول الرومات الصوتية
+⤠ #unvb ⥨ عشان تفك البان عنه من الرومات الصوتية
+⤠ #ban ⥨ لتبنيد شخص ما من السيرفر
+⤠ #kick ⥨ لتعطي شخص كيك
+⤠ #clearall ⥨ لمسح 300 رسالة بالشات
+⤠ #clear <numb> ⥨ لمسح عدد الرسائل التي تريدها
+⤠ #mute ⥨ لاعطاء شخص ما ميوت مع تحديد وقت الميوت 
+⤠ #mutechannel ⥨ لتقفيل الشات 
+⤠ #unmutechannel ⥨ لفتح الشات 
+⤠ #unmute ⥨ لنزع الميوت من الشخص
+⤠ #hidechannel ⥨ لاخفاء روم معين 
+⤠ #showchannel ⥨ لاظهار روم معين 
+⤠ #ct ⥨ لانشاء روم كتابي مع اختيار الاسم
+⤠ #cv ⥨ لانشاء روم صوتي مع اختيار الاسم 
+⤠ #v2min ⥨ لانشاء روم صوتي مؤقت لدقيقتين
+⤠ #add.r ⥨ لانشاء رتبة مع تحديد الاسم 
+⤠ #delet ⥨ كـود يحذف الـروم سواء صوتي او كتابي
+⤠ #dc ⥨ لمسح جميع الرومات
+⤠ #dr ⥨ لمسح جميع الرولات
+⤠ #bc ⥨ للبرودكاست 
+⤠ #bcrole ⥨ برودكاست لرتبة معينة 
+⤠ #deletall ⥨ لحذف كل الرومات و الرولات من السيرفر 
+⤠ #color ⥨ لانشاء رتب الوان مع اختيار رقم الرتب اللي تبيه
+⤠ #move all ⥨ سحب جميع الأعضاء لرومك الصوتي
+⤠ #roles ⥨ لعرض رولات السيرفر 
+⤠ #rooms ⥨ لعرض رومات السيرفر 
+⤠ #role @user <rank> ⥨ لاعطاء شخص ما رتبة
+⤠ #roleremove @user <rank> ⥨ لنزع رتبة من شخص ما
+⤠ #role all <rank> ⥨ لاعطاء الجميع رتبة
+⤠ #role humans <rank> ⥨ لاعطاء البشريين رتبة 
+⤠ #role bots <rank> ⥨ لاعطاء البوتات رتبة 
 			 
-${prefix}games ⥨ اوامر الالعاب
 
+اوامـــر الالـــعـــاب
+
+⤠ #عشان تعطي الشخص اللي تمنشنه لكمة ⥨ لكمة         
+⤠ #لعبة هل تعلم ⥨ هل تعلم         
+⤠ #rps ⥨ لعبة حجر ورقة مقص  
+⤠ #roll <numb> ⥨ قرعة  
+⤠ #emoji ⥨ لكتابة كلامك بايموجي                  
+⤠ #لعبة اسئلني ⥨ اسئلني                    
+⤠ #لعبة كت تويت ⥨ كت تويت
+⤠ #لعبة لو خيروك ⥨ لو خيروك 
+⤠ #معلومات عن الاسلام ⥨ دين    
+⤠ #يعطيك بعض الاذكار ⥨ اذكار
 ${prefix}music ⥨ اوامر الموسيقى
 
 Other Commands:
 
 
-${prefix}invite ⥨ لدعوة البوت الى سيرفرك
+#{prefix}inv ⥨ لدعوة البوت الى سيرفرك
 
-${prefix}support ⥨ لدخول سيرفر الدعم
-
-رابط البوت:https://discordapp.com/oauth2/authorize?client_id=558298401004060673&permissions=8&scope=bot
+#{prefix}support ⥨ لدخول سيرفر الدعم
 
 	  `)
    message.channel.sendEmbed(embed)
@@ -273,7 +336,7 @@ ${prefix}support ⥨ لدخول سيرفر الدعم
 	  
 الاوامــر الــعـــامـــة
 
-⤠ #invite ⥨ لدعوة البوت الى سيرفرك
+⤠ #inv ⥨ لدعوة البوت الى سيرفرك
 ⤠ #server ⥨ معلومات عن السيرفر                      
 ⤠ #say ⥨ البوت يردد كلامك         
 ⤠ #setcolor ⥨ عشان تغير لونك ملاحظة لازم تحط رقم اللون                                          
@@ -330,7 +393,7 @@ client.channels.get("470259562121920512").sendEmbed(embed)
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = ['In 77 Server','*help | *invite','In 77 Server','*help | *invite','In 77 Server'];
+    var setGame = ['#help','extra bot | #inv ','by jak','#support | #inv','by the master '];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -456,7 +519,7 @@ client.on('message', message => {
 
 
 client.on('message', function(message) {
-	const myID = "494130483395821568";
+	const myID = "558220897547452418";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setname")) {
 		        if(message.author.id !== myID) return;
@@ -813,7 +876,7 @@ client.on('message', message => {
                 if(message.content === prefix + "invite") {
                     let embed = new Discord.RichEmbed ()
                     embed.setTitle("**:point_right: Click Here**")
-                  .setFooter(`bot owner `,'https://discordapp.com/api/oauth2/authorize?client_id=558298401004060673&permissions=8&scope=bot')
+                  .setFooter(`extra bot `,'https://discordapp.com/api/oauth2/authorize?client_id=570559495550271489&permissions=8&scope=bot')
                   .setURL("https://goo.gl/ADmgeW");
                    message.channel.sendEmbed(embed);
                   }
@@ -897,7 +960,7 @@ client.on('message', message => {
    
    client.on('message', message => {
 
-    if (message.content.startsWith("#link")) {        
+    if (message.content.startsWith("رابط")) {        
   message.channel.createInvite({
         thing: true,
         maxUses: 100,
@@ -1811,8 +1874,8 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
          client.on('message', message => {
-            if (message.content === 'هلا') {
-              message.channel.send(' هِلَآ بّـيّك:heart: ');
+            if (message.content === '#inv') {
+              message.channel.send(' https://discordapp.com/api/oauth2/authorize?client_id=570559495550271489&permissions=8&scope=bot ');
                
 
             }
@@ -2116,6 +2179,9 @@ const codes = {
       .setDescription(`
 
 اوامـــر الموسيقى
+
+soon
+قريبا
 
 ⤠ #play ⥨ لتشغيل اغنية
 ⤠ #skip ⥨ لتجاوز الاغنية الحالية
